@@ -1,4 +1,4 @@
-body{
+body {
   font-family:Arial, Helvetica, sans-serif
 }
 
@@ -6,9 +6,46 @@ body{
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 22px;
 }
 
+.para.small-para {
+  font-size: 14px;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+/* The below code works, but it's messy. Let's try to make it cleaner!
+
+.para,
 .small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +54,7 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +66,7 @@ body{
   font-size: 20px;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,3 +77,5 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+*/
