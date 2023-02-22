@@ -7,21 +7,47 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 8px;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 8px;
+  padding: 16px 8px
+    /* padding can be shorthand like above. I originally wrote it like below
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  */
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 8px;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  padding: 8px 24px;
+  /* padding can be shorthand like above. I originally wrote it like below
+
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  */
+
 }
